@@ -163,9 +163,6 @@ You are all set! Your automated, multi-tiered snapshot system is now active. You
 *   **How do I snapshot multiple datasets?**
     *   The easiest way is to create a separate Cron Job for each dataset you want to snapshot. Simply repeat Step 4, changing the description and the dataset name in the command.
 
-*   **The script reported a `sort: cannot read...` error on the first dry run.**
-    *   This was a harmless issue in older versions of the script that occurred when no `autosnap_` snapshots existed yet. The current version has fixed this. If you see this, please ensure you are using the latest version of the script from this repository.
-
 ## License
 
 This script is released under the MIT License. See the `LICENSE` file for more details. You are free to use, modify, and distribute it as you see fit.
